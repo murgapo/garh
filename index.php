@@ -3,6 +3,7 @@
 
 <head>
     <title>Login</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="librarys/bootstrap4/bootstrap.min.css">
@@ -36,20 +37,19 @@
 
     <script src="librarys/jquery.min.js"></script>
     <script src="librarys/sweetalert.min.js"></script>
-    
-    <script type="text/javascript">
 
+    <script type="text/javascript">
         function userLogin() {
             $.ajax({
                 type: "POST",
                 data: $('#FrmLogin').serialize(),
-                url:"process/user/login/login.php",
+                url: "process/user/login/login.php",
                 success: function(answer) {
 
                     answer = answer.trim(); //Quitar espacios del lado izquierdo o derecho
                     if (answer == 1) {
                         window.location = "views/begin.php"
-                    }else{
+                    } else {
                         swal("Uups", "¡Ocurrió un error!", "error");
                     }
                 }
@@ -58,7 +58,6 @@
             return false; /*Detener el flujo*/
 
         }
-
     </script>
 
 </body>
