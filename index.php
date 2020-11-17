@@ -2,8 +2,8 @@
 <html lang="es">
 
 <head>
-    <title>Login</title>
-    <link rel="icon" type="image/png"  href="./img/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Login - GARH</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="librarys/bootstrap4/bootstrap.min.css">

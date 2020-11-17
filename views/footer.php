@@ -4,6 +4,7 @@
         <script src="../librarys/sweetalert.min.js"></script>
         <script src="../librarys/datatables/jquery.dataTables.min.js"></script>
         <script src="../librarys/datatables/dataTables.bootstrap4.min.js"></script>
+        <script src="../js/reloj.js"></script>
         </body>
 
         </html>

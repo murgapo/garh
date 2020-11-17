@@ -8,7 +8,7 @@ if (isset($_SESSION['user'])) {
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Gestor de Archivos</h1>
+            <h1 class="display-4">Administrar Archivos</h1>
             <span class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarArchivos">
                 <span class="fas fa-plus-circle"></span> Agregar Archivos
             </span>

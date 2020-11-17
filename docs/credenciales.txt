@@ -1,2 +1,2 @@
 user: manager
-pass: 19122019
+pass: 19122019 - 16112020
